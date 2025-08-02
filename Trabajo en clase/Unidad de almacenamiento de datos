@@ -1,0 +1,11 @@
+# Datos en el mundo digital 
+## 3 archivos ##
+1- txt 52383 caracteres 
+2- Datos punto flotante 5433 
+3- 34347 datos enteros
+
+52383 * 1 byte = 52383 bytes ( 1 kb)/1024 byte =51.15 kb
+5433 * 4 byte=21732 ( 1 kb)/1024 byte= 21.22 kb
+3434 * 4 byte=13736( 1 kb)/1024 byte=  13.41 kb 
+
+**en total pesan = 85.78 kb **
