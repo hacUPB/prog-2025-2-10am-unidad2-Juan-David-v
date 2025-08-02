@@ -88,5 +88,5 @@ Escribir Necesario
 Fin
 ```
 
-
+![alt text](imagenesparapseudocodigo/diagramatarea.drawio.png)
 
