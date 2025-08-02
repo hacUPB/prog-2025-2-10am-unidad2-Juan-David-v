@@ -58,7 +58,7 @@
 
 
 
-## EJercicio 3:##
+## EJercicio 3: ##
 
 Construye un algoritmo que, al recibir como datos el ID del empleado y los seis primeros sueldos del año, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
 
@@ -69,7 +69,24 @@ Inicio
 Leer ID, S1, S2, S3, S4, S5, S6
 Total = S1 + S2 + S3 + S4 + S5 + S6
 PROMEDIO = Total/6
-Escribir ID, Totl, Promedio
+Escribir ID, Total, Promedio
 Fin
 ```
 ![alt text](imagenesparapseudocodigo/Diagramaejercicio3.drawio.png)
+
+
+## TAREA ##
+
+```
+Inicio
+Leer Nota1, Nota2, Nota3, Nota4, Nota5, Nota6
+Total= Nota1 + Nota2 + Nota3 + Nota4 + Nota5 + Nota6
+Promedio= (Total/6)
+Acumulado= Promedio*0.70
+Necesario= (3.0 - Acumulado) / 0.30
+Escribir Necesario
+Fin
+```
+
+
+
