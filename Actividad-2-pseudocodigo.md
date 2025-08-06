@@ -183,3 +183,49 @@ Fin
 ```
 
 ![alt text](imagenesparapseudocodigo/Diagramaejercicioalumnos.png)
+
+
+## TAREA 2 #
+```
+Inicio
+Leer Edad
+Escribir "Ingresar dia de nacimiento"
+Leer Dia_nacimiento
+
+Escribir "Ingresar mes de nacimiento"
+Leer Mes_nacimiento
+
+Escribir "Ingresar año de nacimiento"
+Leer Año_nacimiento
+
+Dia_actual <= 12
+Mes_actual <= 8
+Año_actual<= 2025
+
+Edad= Año_actual - Año_nacimiento
+
+Si Mes_nacimiento > Mes_actual
+ Edad = edad - 1
+Si no
+  Si Mes_nacimiento = Mes actual
+   Si Dia_nacimiento > dia actual
+     Edad= Edad-1
+  Si no
+    Si Dia_nacimiento= Dia_actual
+     Edad= Edad
+   Si no
+    Edad = Edad
+    Fin Si
+   Fin Si
+  Fin Si
+Fin Si
+
+Escribir " Tienes" , Edad, " Años"
+
+Fin
+```
+
+
+
+
+
