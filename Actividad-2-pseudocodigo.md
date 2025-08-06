@@ -224,7 +224,7 @@ Escribir " Tienes" , Edad, " Años"
 
 Fin
 ```
- ![alt text](TAREA2DIAGRAMA.drawio.png)
+ ![alt text](https://github.com/hacUPB/prog-2025-2-10am-unidad2-Juan-David-v/blob/e3e082611a004ef8ee343bfa1aba07afbf90b11c/imagenesparapseudocodigo/TAREA2DIAGRAMA.drawio.png)
 
 
 
