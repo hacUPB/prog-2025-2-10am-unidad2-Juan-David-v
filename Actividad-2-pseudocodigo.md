@@ -224,7 +224,7 @@ Escribir " Tienes" , Edad, " Años"
 
 Fin
 ```
-
+ ![alt text](TAREA2DIAGRAMA.drawio.png)
 
 
 
