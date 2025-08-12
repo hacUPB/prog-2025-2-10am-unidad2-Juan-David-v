@@ -277,6 +277,7 @@ Fin
 | N | Entrada |
 | Fact | Salida|
 | i | Control |
-```
-Inicio
+
+
+![alt text](imagenesparapseudocodigo/imagendiagramafactorial.png)
 
