@@ -224,8 +224,59 @@ Escribir " Tienes" , Edad, " Años"
 
 Fin
 ```
- ![alt text](https://github.com/hacUPB/prog-2025-2-10am-unidad2-Juan-David-v/blob/e3e082611a004ef8ee343bfa1aba07afbf90b11c/imagenesparapseudocodigo/TAREA2DIAGRAMA.drawio.png)
+![alt text](imagenesparapseudocodigo/TAREA2DIAGRAMA.drawio.png)
 
 
 
+## CLASE 12 AGOSTO ##
+
+### Ejercicios de bucles ###
+
+1. Se requiere un algoritmo para determinar, de N cantidades, Cuantas son cero, cuantas son menores a cero, cuantas son mayores a cero
+
+ Realice el diagrama de flujo y el pseudocodigo. representarlo, utilizando el ciclo apropiado
+
+ |Variables| Tipo|
+|---------|-----|
+| N, Cant | Entrada |
+| ceros, mayores, iguales | contadoras |
+| N | Control |
+
+#### Pseudocodigo ####
+```
+Inicio
+Leer N
+ceros = 0
+mayores = 0
+menores = 0
+Mientras N > 0:
+    Leer cant
+    Si cant > 0
+        Mayores= mayores + 1
+    Si no
+        Si cant = 0:
+            Ceros = ceros + 1
+        Si no 
+            Menores= menores+ 1
+        Fin si
+    Fin si
+    N= N - 1
+Fin Mientras
+Mostras ceros, mayores, menores 
+Fin 
+
+```
+![alt text](<imagenesparapseudocodigo/Diagrama condicionales.drawio.png>)
+
+
+2. Calcular el factorial de un numero entrero ingresado por el usuario 
+
+
+ |Variables| Tipo|
+|---------|-----|
+| N | Entrada |
+| Fact | Salida|
+| i | Control |
+```
+Inicio
 
