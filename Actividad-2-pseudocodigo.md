@@ -278,6 +278,18 @@ Fin
 | Fact | Salida|
 | i | Control |
 
+ 
+ ```
+  Inicio 
+  Leer N
+  Factorial = 1
+  Mientras que N > 0
+    Si N > 0
+        Factorial = factorial * N
+        N = N-1
+        Fin mientas
+    Fin si 
+```
 
 ![alt text](imagenesparapseudocodigo/imagendiagramafactorial.png)
 
