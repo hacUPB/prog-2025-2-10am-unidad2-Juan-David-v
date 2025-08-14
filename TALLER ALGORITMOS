@@ -1,0 +1,87 @@
+# TALLER DE ALGORITMOS #
+
+1. **Verificación de peso de despegue**
+    
+    En una pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, incluyendo combustible y carga, supera el límite máximo permitido para el despegue. Dependiendo del resultado, el sistema deberá indicar si la aeronave está lista para despegar o si debe reducir carga o combustible.
+
+    |VARIABLES| TIPO |
+    |---------|------|
+    | P_combustible| entrada| 
+    | P_carga| entrada|
+    | Peso_Total| Salida|
+
+    ```
+    Inicio 
+    
+    P_Aeronave= 2000
+    P_Maximo = 3000
+
+    Leer P_combustible, P_carga 
+    Peso_Total = (P_aeronave + P_combustible + P_carga)
+    Si Peso_Total <= 3000
+        Imprimir "Listo para despegar"
+        Si no 
+        Imprimir " Reducir peso de carga "
+    Fin Si
+
+    Fin 
+    ```
+
+
+2. **Registro de altitudes de vuelo**
+    
+    Un sistema debe registrar la altitud de vuelo cada 10 minutos durante una hora y mostrar todas las mediciones al final.
+    
+
+| VARIABLES| TIPO |
+|----------|------|
+|Altitud|Entrada|
+|Medida|Salida|
+
+````
+INICIO
+ 
+ Altitudes[6]
+    Desde i= 0 hasta i=5
+
+    Leer dato
+
+    Altitud[i] = dato 
+    
+    Fin Desde
+
+    Desde i=0 hasta i=5
+
+    Mostrar dato 
+
+    Altitud[i] = dato 
+    
+    Fin Desde
+ Fin
+````
+
+3. **Simulación de conteo de pasajeros**
+    
+    Durante el abordaje, un sistema cuenta a los pasajeros que ingresan. Si el número total supera la capacidad máxima, el sistema debe detener el conteo y mostrar un mensaje de alerta.
+
+|Variable|Tipo|
+|--------|----|
+|Maximo_pasajeros|entrada|
+
+```
+Inicio
+Maximo_pasajeros = 100
+Pasajero = 0
+
+Desde i= 0 hasta i= 100
+
+Si pasajeros >= Maximo_pasajeros
+    mostrar " mensaje de alerta - Sobrecupo "
+
+Si no
+    pasajero=pasajeros + 1
+    mostrar " Cupo libre: ingreso de otro pasajero"
+
+Fin Si
+Fin
+```

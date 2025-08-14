@@ -262,7 +262,7 @@ Mientras N > 0:
     Fin si
     N= N - 1
 Fin Mientras
-Mostras ceros, mayores, menores 
+Mostrar ceros, mayores, menores 
 Fin 
 
 ```
@@ -317,3 +317,4 @@ fin
 ```
 
 ![alt text](imagenesparapseudocodigo/DIAGRAMATAREATARJETA.drawio.png)
+
