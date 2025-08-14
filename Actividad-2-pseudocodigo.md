@@ -303,3 +303,5 @@ leer compra
 fin
 
 ```
+
+![alt text](imagenesparapseudocodigo/DIAGRAMATAREATARJETA.drawio.png)
