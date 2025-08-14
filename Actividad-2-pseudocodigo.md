@@ -293,3 +293,27 @@ Fin
 
 ![alt text](imagenesparapseudocodigo/imagendiagramafactorial.png)
 
+
+## TAREA ALGORITMO ##
+```
+Inicio
+leer compra
+    leer cuotas
+    r = 0.02
+
+    si cuotas <= 0 entonces
+        escribir "numero de cuotas invalido"
+    sino
+        cuota = (compra + compra*r*cuotas) / cuotas
+
+        i = 1
+        mientras i <= cuotas hacer
+            escribir "cuota ", i, ": ", cuota
+            i = i + 1
+        fin mientras
+    fin si
+fin
+
+```
+
+![alt text](imagenesparapseudocodigo/DIAGRAMATAREATARJETA.drawio.png)
