@@ -1,0 +1,45 @@
+1. Explica, en tus propias palabras, por qué es necesario que las computadoras representen los datos en binario.
+
+Las computadoras funcionan internamente con circuitos eléctricos que pueden estar en solo dos estados : encendido (1) o apagado (0). Estos dos estados se representan como dígitos binarios o conocidos como bits
+El sistema binario es el más adecuado para representar estos dos estados de manera simple, eficiente y confiable.
+ 
+2. Convierte el número binario 10011011 a decimal y a hexadecimal.
+
+1·2⁷ + 0·2⁶ + 0·2⁵ + 1·2⁴ + 1·2³ + 0·2² + 1·2¹ + 1·2⁰
+= 128 + 0 + 0 + 16 + 8 + 0 + 2 + 1
+= 155
+
+1001 1011
+
+Cada grupo equivale a:
+
+1001 = 9
+
+1011 = B =11  en decimal
+
+Hexadecimal: 9B
+
+
+3. Investiga y describe cómo se representa una imagen en formato PNG en el disco.
+
+El formato PNG (Portable Network Graphics) es un formato de imagen sin pérdida de calidad.
+En el disco, un archivo PNG se almacena como una secuencia estructurada de bloques codificados en el codigo binario. Cada archivo comienza con una cabecera estándar seguida de varios bloques, entre ellos :
+
+IHDR: contiene la información básica de la imagen (ancho, alto, tipo de color, etc.).
+
+IDAT: contiene los datos de la imagen comprimidos.
+
+PLTE: contiene la paleta de colores.
+
+IEND: marca el final del archivo.
+
+
+4. Analiza la siguiente situación: ¿Qué sucede si intentas almacenar un número mayor al que puede representar un byte (por ejemplo, 300)? ¿Cómo lo maneja Python?
+
+Un byte es una unidad pequeña que solo puede guardar números entre 0 y 255.
+Si intentas guardar un número más grande, como 300, no cabe en un solo byte.
+
+En Python, no hay problema al trabajar con números grandes en general.
+Python lo muestra sin errores porque puede manejar números grandes automáticamente.
+
+Pero si intentas convertir ese número en un formato de byte, como para enviarlo o guardarlo de forma muy compacta, ahí sí hay límite.

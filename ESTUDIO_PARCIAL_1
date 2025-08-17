@@ -1,0 +1,84 @@
+# REPASO PARCIAL 1 #
+## Ejercicios no resueltos del taller de algoritmos ##
+1. **Control de temperatura del motor**
+    Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico,
+    se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". 
+    Si es demasiado baja, indicar "Motor frío – Calentar antes de operar".
+
+```
+Inicio
+temp_maxima= 900
+temp_min= 100
+Leer temp
+  Si temp > 900
+  Mostrar " PELIGRO: sobrecalentamiento"
+     Si Temp < 100 
+      Mostrar "Motor frio-calentar"
+     Si no
+      Mostrar " Operacion normal"
+    Fin Si 
+  Fin Si
+Fin
+```
+
+2. **Control de combustible en pruebas**
+    
+    Durante un ensayo en banco de un motor a reacción, se mide el nivel de combustible cada minuto y se detiene el registro cuando el combustible baja del 10%.
+    Mostrar el tiempo total de operación antes de llegar a ese punto.
+
+|Variable|Tipo|
+|--------|----|
+| N_combustible | entrada |
+| T_total | salida |
+
+```
+Inicio
+
+N_combustible = 10
+T_total =0 
+N_maximo= 10
+N_min= 1
+ Leer combustible
+  Mientras N_combustible >1
+  Mostrar " Sigue operando"
+  T_total= T_total + 1
+  Fin Mientras
+mostrar " el tiempo de operacion fue de :", T_total, "minutos"
+Fin
+```
+
+
+3. **Detección de turbulencia en trayecto**
+    
+Un sensor mide la aceleración vertical de la aeronave en intervalos de un segundo durante un trayecto de 2 minutos. 
+Si el valor medido supera un umbral, indicar que se ha detectado turbulencia en ese instante. 
+Al final, mostrar cuántas turbulencias se detectaron.
+
+
+ |Variable|Tipo|
+|--------|----|
+| Aceleracion | entrada |
+| T_turb | salida 
+
+```
+Inicio
+t= contador 
+T_turb = 0
+Aceleracion estable= 5 
+t[i]= 120
+desde t=0 hasta   t=119
+t[i]= dato
+Leer dato 
+  Si Aceleracion > 5
+    Mostrar " Turbulencia"
+T_turb= T_turb+1 
+ 
+  Si no
+ Mostrar "avion estable"
+
+  Fin si 
+Fin desde
+
+Mostrar "El total de turbulencias fueron ", T_turb
+Fin 
+```
