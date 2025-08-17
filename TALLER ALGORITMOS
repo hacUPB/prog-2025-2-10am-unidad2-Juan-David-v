@@ -76,6 +76,9 @@ Pasajero = 0
 
 Desde i= 0 hasta i= 100
 
+Leer dato
+Pasajero[i] = dato
+
 Si pasajeros >= Maximo_pasajeros
     mostrar " mensaje de alerta - Sobrecupo "
 
@@ -84,5 +87,6 @@ Si no
     mostrar " Cupo libre: ingreso de otro pasajero"
 
 Fin Si
+Fin desde
 Fin
 ```
